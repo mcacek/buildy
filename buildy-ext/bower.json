@@ -1,0 +1,16 @@
+{
+  "name": "buildy-ext",
+  "version": "0.1.0",
+  "authors": [
+    "Michael Cacek <michael.cacek@objectpartners.com"
+  ],
+  "private": true,
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
