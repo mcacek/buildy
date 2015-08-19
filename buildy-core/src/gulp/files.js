@@ -12,15 +12,15 @@ module.exports = {
             'node_modules/lodash/index.js',
             'node_modules/angular/angular.js'
         ],
-        bundle: 'buildy-ext-vendor.js',
+        bundle: 'buildy-core-vendor.js',
         dest: 'build'
     },
     js: {
-        bundle: 'buildy-ext.js',
+        bundle: 'buildy-core.js',
         files: []
     },
     css: {
-        bundle: 'buildy-ext.css',
+        bundle: 'buildy-core.css',
         files: []
     }
 };
