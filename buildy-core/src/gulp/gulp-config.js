@@ -5,5 +5,6 @@ module.exports = {
         },
         external: ['angular', 'lodash']
     },
-    files: require('./files')
+    files: require('./files'),
+    tasks: require('./tasks')
 };

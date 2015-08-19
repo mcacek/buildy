@@ -6,7 +6,7 @@ var config = require('../gulp-config');
 var path = require('path');
 var watch = require('gulp-watch');
 var concat = require('gulp-concat');
-var modulesConfig = config.files.modules;
+var modulesConfig = config.tasks.modules;
 var browserifyConfig = config.browserify;
 
 gulp.task('scripts:main', scriptsMain);
