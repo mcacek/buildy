@@ -2,7 +2,7 @@ var fs = require('fs');
 
 module.exports = {
     modules: {
-        dest: 'build',
+        dest: 'dist',
 
         // get a flat list of all directory name inside of modules
         names: getModuleNames()
@@ -13,7 +13,7 @@ module.exports = {
             'node_modules/angular/angular.js'
         ],
         bundle: 'buildy-core-vendor.js',
-        dest: 'build'
+        dest: 'dist'
     },
     js: {
         bundle: 'buildy-core.js',
